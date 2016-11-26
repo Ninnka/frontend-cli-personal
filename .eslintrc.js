@@ -3,7 +3,8 @@ module.exports = {
   "globals": {
     "$": true,
     "_": true,
-    "__dirname": true
+    "__dirname": true,
+    "define": true
   },
   "root": true,
   // 语言环境选项
@@ -77,7 +78,7 @@ module.exports = {
       "allowArrowFunctions": true
 		}],
     "indent": [2, 2, {
-      "SwitchCase": 1
+      "SwitchCase": 0
 		}],
     "space-before-function-paren": ["off", {
       "anonymous": "always",
@@ -138,7 +139,7 @@ module.exports = {
     "no-useless-call": 2,
     "no-useless-concat": 2,
     "no-void": 2,
-    "object-shorthand": 2,
+    "object-shorthand": 0,
     "operator-assignment": 2,
     "operator-linebreak": 0,
     "prefer-const": 0,
@@ -149,7 +150,7 @@ module.exports = {
     "wrap-regex": 2,
     "no-use-before-define": 1,
     "no-loop-func": 1,
-    "no-var": 2
+    "no-var": 0
       // "babel/arrow-parens": [2, "as-needed"],
       // "babel/generator-star-spacing": [2, "before"]
   },
